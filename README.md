@@ -1,21 +1,7 @@
-# blog
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+这是一个电子商城系统
+系统基本功能有：
+（1）首页为商品展示页面，不需要登录。
+（2）使用系统的用户包括一个管理员和多个用户，需要登陆才能操作系统，登录后可以修改个人信息。
+（3）管理员可以管理商品（包括编号、名称、照片、价格等）、浏览用户、查看订单。
+（4）用户可以注册（包括编号、姓名、照片、性别、地址等）。可以查询商品，可以查看商品详细信息。可以将商品加入购物车，可以进行结算（不用真实付款）。可以查看自己的订单。
+（5）管理员统计：按消费金额倒排的十强用户列表，按销售量倒排序的十强商品列表。统计结果以柱状图或其他图形展示。
